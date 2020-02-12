@@ -26,6 +26,7 @@ import lombok.Setter;
  * @param <T>
  *            type of read data
  */
+@NoArgsConstructor
 public class HbaseReader<T> implements ItemReader<T>, InitializingBean {
 
     /** List of scans to stream */
